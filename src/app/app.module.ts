@@ -2,6 +2,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MateralModule } from './material.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -30,7 +31,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
     BrowserAnimationsModule,
     MateralModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
